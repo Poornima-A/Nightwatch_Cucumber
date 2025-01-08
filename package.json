@@ -3,7 +3,8 @@
   "scripts": {
      "test:@fblogin": "cucumber-js --require cucumber.conf.js --require step_definitions/facebook-steps.js --format node_modules/cucumber-pretty" ,
    "test1:@greyHrlogin": "cucumber-js --require cucumber.conf.js --require step_definitions/greyHr-steps.js --format node_modules/cucumber-pretty",
-     "test2:@amazonSearch": "cucumber-js --require cucumber.conf.js --require step_definitions/amazon-steps.js --format node_modules/cucumber-pretty"
+     "test2:@amazonSearch": "cucumber-js --require cucumber.conf.js --require step_definitions/amazon-steps.js --format node_modules/cucumber-pretty",
+       "test3:@amazonAddToCart": "cucumber-js --require cucumber.conf.js --require step_definitions/amazonCard-steps.js --format node_modules/cucumber-pretty"
   },
   "dependencies": {
     "chromedriver": "^131.0.4",
